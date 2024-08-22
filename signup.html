@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title> signup  </title>
+   <link rel="stylesheet" href="homecss.css">
+ </head>
+ <body>
+ <div id="bodysignup">
+ <div class="headsignup">
+         <img src="photo/star.png">
+		 <h1> FDRE IMMIGRATION AND VITAL<br> EVENT AGENCY </h1>
+    </div>
+	<form action="php/signup.php" method="POST">
+ <div class="contentsignup">	
+ <div class="boxsignup">
+ <h2>create account</h2>
+   <div class="inputboxsignup">     
+	   <label>FIRST NAME</label>
+       <input type="text" name="firstname" required>
+    </div>
+    <div class="inputboxsignup">
+	   <label>  LAST NAME</label>
+       <input type="text" name="lastname" required>
+	</div> 
+    <div class="inputAGEsignup">
+	   <label>AGE</label>
+       <input type="number" name="age" required>
+    </div>
+    <div class="inputboxsignup">
+	   <label>male</label>
+       <input type="radio" name="sex" value="male" required>
+	   <label>female</label>
+       <input type="radio" name="sex" value="female" required>
+    </div>	
+  	   <div class="inputboxsignup">
+	   <label>PHONE NO</label>
+       <input type="number" name="phonenumber" required>
+    </div>
+	<div class="inputboxsignup">
+	   <label>PASSWORD</label>
+       <input type="PASSWORD" name="password" required>
+    </div>
+	<div class="inputboxsignup">
+	   <label>Employee-identity</label>
+       <input type="text" name="employeeidentity" required>
+    </div>
+	  <input type="submit" name="signup" value="signup">
+      <br>
+	  <p>remember your account?</p>
+      <p> <a href="login.html"> login</a></p>  
+	</div>
+	 </div>
+	 </form>
+	<div class="downsignup">
+	  <footer>
+	    <p><a href="instagram"><img src="photo/insta.jpg"></a>&nbsp<a href="twitter"><img src="photo/twitter.png"></a>&nbsp<a href="telegram"><img src="photo/tel.jpg"></a>&nbsp<a href="facebook"><img src="photo/facebook.png"></a></p>
+		<p><a href="terms of use">Terms of use</a>||<a href="privacy policy">Privacy policy</a>||<a href="advert">Advertising & sponsership</a>||<a href="membership">Membership</a></p>
+	    <p>powered by HS &copy 2019</p>
+      </footer>	  
+	</div>
+	</div>
+ </body>
+</html>

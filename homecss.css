@@ -1,0 +1,522 @@
+/*THIS IS THE WHOLE WEBPAGE CSS(CASICADING STYEL SHEET)  WE USE DESCRIPTIVE WORDS FOR EACH STYLE GO ON
+ THE FIRST HEADER PART THAT CONTIN IMAGE PART AND HEADER PART*/
+#header
+{
+	 width:100%;
+	 height:100px;
+	 border-style:normal;
+	 background-color:purple;
+	 margin-top:10px;
+      
+         
+}
+
+/* THIS WORKS THE HEADER IMAGE PART STYLE USE MARGIN-LEFT AND MARGIN-RIGHT AUTO BECUSE THE IMAGE PUT IN THE CENTER PART */
+#header img
+{
+	width:5%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header h3
+{
+	text-align:center;
+	font-style:15px;
+	margin:0px;
+}
+/* THIS IS  STYLE INTHE FRONT WEBPAGE BACKGROUND COLOR ONLY*/
+body
+{
+background-color:#A59888;
+}
+/* */
+
+#section{
+	display:flex;
+}
+/* ON THIS PART I USE  SLIDER OVERFLOW HIDDEN*/
+#slider 
+    {
+   overflow: hidden;
+    }
+    #slider figure 
+	{
+    position: relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation: 10s slider infinite;
+    }
+   #slider figure img 
+		{
+            width: 20%;
+            height: 20%;
+            float: left;
+        }
+@keyframes slider 
+{
+    0%{left:0%;}
+	20%{left:0%;}
+	25%{left:-100%;}
+	45%{left :-100%;}
+	50%{left:-200%;}
+	70%{left:-200%;}
+	75%{left:-300%;}
+	90%{left:-300%;}
+	100%{left:-400%;}
+}
+/* */ 
+ #footer-bottom  p
+}
+{   
+    padding-top:100px;
+	text-align:center;
+}
+/* */
+#horziontal_meanu ul li a{
+	background-color:orange;
+	list-style-type:none;
+	text-decoration:none;
+	padding:5px;
+	font-size:20px;
+	color:black;
+}
+#horziontal_meanu  li
+{
+	margin-left:400px;
+	padding:30px;
+    display: inline;
+}
+#horziontal_meanu  li h5{
+	text-align:right;
+}
+#horziontal_meanu li ul{
+	font-size:18px;
+	margin:0px 0px 25px 0px;
+	background-color:royalblue;
+	border:#FFC0CB 1px solid;
+	padding:0px 0px 0px 30px;
+}
+#horziontal_meanu a:hover{
+	background-color:orange;
+	color:#FFC0CB;
+	border-radius:20%;
+}
+/* */
+#headermenu li
+{
+	padding:30px 20px 25px 20px;
+	list-style-type: none;
+}
+#headermenu ul li a
+{
+	text-decoration:none;
+	margin:0px 80px 20px 5px;
+	font-size:20px;
+	color:black;
+
+	padding:0px 20px 0px 20px;
+}
+#headermenu ul li a:hover{
+	background-color:olive;
+	color:#FFC0CB;
+	border-radius:20%;
+}
+/*THIS IS THE  SIGNUP CSS STYLE */
+ #bodysignup {
+	   padding:0;
+	   margin:0;
+	   background:url(photo/pass.jpg);
+	   background-size:cover;
+	   }
+     .headsignup img
+                {
+           height: 100px;   
+            width: 100px;  
+	}
+    .headsignup   {
+      	width:100%;
+      	 } 	  
+    .headsignup h1
+	{ 
+     	  position:absolute;
+	  left:130px; 
+       	  top:1px;
+	  }
+    .contentsignup{
+	  margin-top:100px;
+     	  width:100%;
+      	  }	 
+/* WE USE NESTED DIVSION SO WE HAVE TO CALL THE MAIN DIVSION BEFORE THE SUB DIVSION*/		  
+     .contentsignup .boxsignup {
+	   	position:relative;
+		left:25%;
+		width:40%; 
+       	padding:30px;
+		background-color:rgba(0,0,0,0.5);  
+        border-radius:10px;
+          }
+	 .contentsignup .boxsignup h2 {
+		   text-align:center;
+		   color:white;
+		   }
+	 .contentsignup .boxsignup p{
+	    text-align:center;
+		color:white;
+		}
+	 .contentsignup .boxsignup p a{
+	    text-align:center;
+		color:lightblue;
+		text-decoration:none;
+		}
+	 .contentsignup .boxsignup .inputboxsignup{
+	    padding-top:20px;
+		}
+     .contentsignup .boxsignup .inputboxsignup label {
+         padding:10px;
+		 color:white;
+		 font-size:15px;
+		 }
+	 .contentsignup .boxsignup .inputboxsignup input{
+		  font-size:20px;
+		  background:white;
+		  }	 
+        .inputAGEsignup  input
+		{
+			margin:10px 0px 0px 55px;
+			padding:0px 0px 15px 0px;
+			width:48%;
+		}
+        .inputAGEsignup	 label
+		{
+			color:white;
+		    font-size:15px;
+			padding:10px;
+		}		
+     .downsignup {
+	    margin-top:100px;
+		background-color:rgba(0,0,80,.4);
+		width:100%;
+        margin-bottom:-30px;
+		}
+     .downsignup footer {
+	    text-align:center;
+        }	
+     .downsignup footer p {
+	    color:white;
+		}
+     .downsignup footer p a {
+	    padding:5px;
+	    text-decoration:none;
+		color:white;
+        }
+/*    */
+    #loginbody {
+	   padding:0;
+	   margin:0;
+	   background:url(photo/pass.jpg);
+	   background-size:cover;
+	   }
+	.headlogin img
+         {
+           height: 100px;   
+            width: 100px;  
+			}
+	.headlogin{
+      width:100%;
+       } 	  
+    .headlogin h1
+	{ 
+      position:absolute;
+	  left:130px; 
+      top:1px;
+	  }
+    .contentlogin{
+	  margin-top:100px;
+      width:100%;
+        }	  
+     .contentlogin .boxlogin {
+	   	position:relative;
+		left:25%;
+		width:40%; 
+        padding:30px;
+		background-color:rgba(0,0,0,.5);  
+        border-radius:10px;
+          }
+	 .contentlogin .boxlogin h2 {
+		   text-align:center;
+		   color:white;
+		   }
+	 .contentlogin .boxlogin p{
+	    text-align:center;
+		color:white;
+		}
+	 .contentlogin .boxlogin p a{
+	    text-align:center;
+		color:lightblue;
+		text-decoration:none;
+		}
+	 .contentlogin .boxlogin .inputboxlogin input {
+	      border:none;
+		  border-bottom:1px solid;
+		  border-bottom-color:white;
+		  padding:10px 0px;
+		  width:100%;
+		  font-size:15px;
+		  background:transparent;
+		  }
+	 .contentlogin .boxlogin .inputboxlogin label {
+         position:relative;
+         top:-30px;
+         left:0px;
+         padding:10px 0px;
+		 color:white;
+		 transition:.5s;
+		 font-size:15px;
+		 }
+      .contentlogin .boxlogin .inputboxlogin input:focus~label
+	  {
+        top:-48px;
+        left:0px;
+		color:lightblue;
+		}
+     .downlogin {
+	    margin-top:100px;
+		background-color:rgba(0,0,80,.4);
+		width:100%;
+        margin-bottom:-30px;
+		}
+     .downlogin footer {
+	    text-align:center;
+        }	
+     .downlogin footer p {
+	    color:white;
+		}
+     .downlogin footer p a {
+	    padding:5px;
+	    text-decoration:none;
+		color:white;
+        }	 
+   /**/
+    #fdrebody {
+	   padding:0;
+	   margin:0;
+	   background:url(photo/pass.jpg);
+	   background-size:cover;
+	   }
+ .logo img
+         {
+           height: 100px;   
+            width: 100px;  
+			}
+	.logo{
+      width:100%;
+	}
+       .logo h1
+	{ 
+      position:absolute;
+	  left:130px; 
+      top:1px;
+	  }
+ .whole{
+		 background-color:#d7cfbf;
+		 text-align:center;
+         margin-bottom:30px;		 
+			 }
+		 .whole .head img{
+		   width:100px;
+		   height:100px;
+		   }
+		 .whole .day p{
+            text-align:right;
+				}
+		 .whole .set {
+             margin-top:20px;
+			 text-align:left;
+              }
+		 .whole .main {
+			text-align:left;
+			width:100%;
+			}
+		 .whole .main table tr th{
+		 padding-left:20px;		 	 
+		   }
+		   
+		 .whole .info ul{
+            text-align:left;
+			list-style:none;
+			padding-left:10px;
+			}
+		 .whole .info ul li input
+		     {
+		      margin-top:10px;
+		     }
+			 #infoh input
+			 {
+				 margin:0px 0px 0px 73px;
+			 }
+			 #infoo input
+			 {
+                margin:10px 0px 0px 35px;
+			 }
+			 #infoe input
+			 {
+				 margin:10px 0px 0px 7px;
+			 }
+		 .whole .state p{
+           text-align:left;
+			}
+		 .whole .add{
+           text-align:left;
+		   align-items:center;
+			}
+		 .whole .add ul{
+		   list-style:none;
+		   padding:15px;
+			} 
+		 .whole .add ul li input{
+		    margin-left:20px;
+		    margin-top:5px;
+		   }
+		   #addR input
+		   {
+			  margin:10px 0px 0px 81px; 
+		   }
+		   #addZ input
+		   {
+			  margin:10px 0px 0px 100px; 
+		   }
+		   #addC input
+		   {
+			  margin:10px 0px 0px 108px; 
+		   }
+		   #addK input
+		   {
+			  margin:10px 0px 0px 83px; 
+		   }
+		   .whole .last {
+			text-align:left;
+			}
+		  .down {
+	    margin-top:100px;
+		background-color:rgba(0,0,80,.4);
+		width:100%;
+        margin-bottom:-30px;
+		}
+     .down footer {
+	    text-align:center;
+        }	
+     .down footer p {
+	    color:white;
+		}
+     .down footer p a {
+	    padding:5px;
+	    text-decoration:none;
+		color:white;
+        }	 	
+		/**/
+#aboutbody {
+	   padding:0;
+	   margin:0;
+	   background:url(photo/pass.jpg);
+	   background-size:cover;
+	   }
+	.head img
+         {
+           height: 100px;   
+            width: 100px;  
+			}
+	.content img{
+       	height: 400px;   
+        width: 400px;
+			}	
+	.head{
+      width:100%;
+       } 	  
+    .head h1
+	{ 
+      position:absolute;
+	  left:130px; 
+      top:1px;
+	  }
+    .content {
+	  margin-top:50px;
+	  margin-bottom:100px;
+      width:100%;
+	  background-color:rgba(255,255,255,.9);
+	   }
+	.content p{
+        padding:15px;
+	    text-align:left;
+		}
+	 .content table{
+        width:100%;
+		}		
+     .content table th{
+	    width:50%;
+        padding-left:20px;	    
+	   }
+	 .content table th p{	   
+	      padding:15px;
+		  text-align:left;
+        }	   
+	 .down{
+        margin:10px 0px 0px 0px;	 
+		background-color:rgba(0,0,80,.4);
+		width:100%;
+		height:150px;
+		}
+     .down footer {
+	    text-align:center;
+        }	
+     .down footer p {
+	    color:white;
+		}
+     .down footer p a {
+	    padding:5px;
+	    text-decoration:none;
+		color:white;
+        }	   
+   /*  */
+    #contactbody { 
+	    background:url(photo/118.jpg);
+	   background-size:cover;
+	   
+	   }
+	   .contact_style
+	   {
+		   background:url(photo/4.jpg);
+		   width:50%;
+		   padding:0px 5px 0px 5px;
+		   margin:150px 20px 0px 250px;
+		   border-radius:10px;
+		   text-align:center;
+	   }
+	   /**/
+	   #newsbody
+	   {
+		   background-color:cornsilk;
+	   }
+	   #firstvideo
+	   {
+		  padding:0px 0px 10px 0px;
+		  
+	   }
+	   #secoundvideo
+	   {
+		   padding:0px 0px 10px 0px;
+	   }
+		   #news1 p
+		   {
+			   padding:0px 0px  0px 0px;
+			   margin: 0px 0px 0px 0px; 
+               word-wrap:break-word;		   
+		   }
+		   p
+		   {
+			   padding:5px 0px 5px 15px;
+			   word-wrap:break-all;
+		   }
+	   

@@ -1,0 +1,117 @@
+<html> 
+  <head> 
+      <link rel="stylesheet" href="homecss.css">
+    <title>FDRE-APPLICATION</title>
+  </head>
+  <body>
+  <div id="fdrebody">
+  <div class="logo">
+         <img src="photo/star.png">
+		 <h1> FDRE IMMIGRATION AND VITAL<br> EVENT AGENCY </h1>
+    </div>
+	<form method="post" action="php/submit.php">
+<div class="whole">	
+   <fieldset>
+<div class="head">
+     <center> <img src="photo/star.png"> <center>
+     <h3>FDRE IMMIGRATION AND VITAL EVENT REGISTRATION AGENCY</h3> 
+</div>      
+       <p><b><u>APPLICATION FORM</u> </b></p>
+<div class="day">        
+     <p><label for="date">DATE:</label><input type="date" name="date"></p>
+</div>	 
+<div class="type">
+      APPLICATION TYPE:
+     <select name="applicationby">
+         <option value="PASSPORT"> PASSPORT</option>
+         <option value="laissez-passer"> LAISSEZ-PASSER</option>
+         <option value="PILGRIM">PILGRIM </option>
+         <option value="REISSUE"> REISSUE</option>
+     </select>
+</div>
+<div class="set">  
+     <fieldset>
+	 <legend>NB</legend>
+        * THIS APPLICATION FORM IS TO BE FILLED BY ETHIOPIANS ONLY.<br>
+        * TO USE MORE THAN ONE TRAVEL DOCUMENT IS STRICTIY PROHIBITED EXCEPT PILGRIM.<br>
+        * LAISSEZ-PASSER SHALL BE ISSUED TO AN ETHIOPIAN WHICH IS NOT HOLDING A PASSPORT AND IS RETURNING  FROM              ABROAD.  
+     </fieldset>
+</div>
+<div class="main">
+	      <p> 1.<b><u>APPLICANT'S</u></b></p>
+     <table>
+     <tr>
+	    <th>FIRST NAME</th>
+	    <th>MIDDLE NAME</th>
+        <th>LAST NAME</th>
+	</tr>
+	<tr>
+	    <th><input type="text" name="firstname" required></th>
+	    <th><input type="text" name="middlename" required></th>
+        <th><input type="text" name="lastname" required></th>
+	</tr>
+	</table>
+	<table>
+    <tr>
+        <th> * SEX  </th>
+    </tr>
+    <tr>
+          <th>  MALE <input type="radio" name="sex" value="male"><br>
+                FEMALE <input type="radio"  name="sex" value="female"> </th>
+          <th>  </th>
+         <th> PLACE OF BIRTH: <input type="text" name="placeofbirth" required><br><br>
+                  DATE OF BIRTH : <input type="date" name="dateofbirth" required></th><br>
+ </tr>
+</table>
+</div>
+<div class="info"> 
+ <ul>
+ 	<li id="infoh"><label>HEIGHT:</label><input type="text" name="height" required></li>                      
+	<li id="infoe"><label>COLOUR OF EYE:</label><input type="text" name="colourofeye" required></li>                       	
+	<li><label>COLOUR OF HAIR:</label><input type="text" name="colourofhair" required></li>                      
+	<li id="infoo" ><label>OCCUPATION:</label><input type="text" name="occupation" required></li>
+</ul> 
+ </div>
+<div class="state">
+      <p>2.<b><u>MARITAL STATUS</u></b><p> 
+ 
+    SINGLE <input type="radio" name="maritalstatus" value="single" required> <br>
+    MARRIED <input type="radio" name="maritalstatus" value="married" required> 
+    IF OTHER,SPECIFY  <input type="text" name="ifother" ></th>
+ </div>
+ <div class="add">
+    <p> 3.<b><u>RESIDENCE ADDRESS</u></b></p>
+	<ul>
+     <li id="addR"><label>REGION:</label><input type="text" name="region" required></li>                   
+	 <li id="addZ"><label>ZONE:</label><input type="text" name="zone" required></li>                  	
+	 <li id="addC"><label>CITY:</label><input type="text" name="city" required></li>               
+	 <li id="addK"><label>KEBELE:</label><input type="text" name="kebele" required></li>
+     <li><label>HOUSE NUMBER:</label><input type="text" name="housenumber" required></li>                  
+	 <li><label>PHONE NUMBER:</label><input type="text" name="phonenumber" required></li>
+	</ul> 
+ </div>
+ <div class="last">
+       4.<b><u>APPLICATION PRESENTED BY</u></b><br>
+	   <br>
+ <select name="presentedby">
+         <option value="APPLICANT"> APPLICANT</option>
+         <option value="PARENT">PARENT </option>
+         <option value="PROXY">PROXY </option>
+         <option value="GUARDIAN"> GUARDIAN</option>
+     </select>
+ </div>
+ <br>
+         <input type="submit" value="SUBMIT" name="submit" >
+  </fieldset>
+</div> 
+</form> 
+  <div class="down">
+	  <footer>
+	    <p><a href="instagram"><img src="photo/insta.jpg"></a>&nbsp<a href="twitter"><img src="photo/twitter.png"></a>&nbsp<a href="telegram"><img src="photo/tel.jpg"></a>&nbsp<a href="facebook"><img src="photo/facebook.png"></a></p>
+		<p><a href="terms of use">Terms of use</a>||<a href="privacy policy">Privacy policy</a>||<a href="advert">Advertising & sponsership</a>||<a href="membership">Membership</a></p>
+	    <p>powered by HS &copy 2019</p>
+      </footer>	  
+	</div>
+	</div>
+  </body>
+</html>
